@@ -1,4 +1,6 @@
-export default function Home() {
+import { redirect } from "next/navigation";
+
+export default function Main() {
   return (
-<h1>Hello, world!</h1>)
+redirect('/home'))
 }
