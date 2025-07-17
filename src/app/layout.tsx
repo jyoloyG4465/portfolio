@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
+import Header from "./header/header";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,17 +16,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header
-          style={{ padding: "1rem", backgroundColor: "#08E8DE", color: "#000" }}
-        >
-          <h1>My App</h1>
-          <nav>
-            <Link href="/">Top</Link> | <Link href="/home">Home</Link> |{" "}
-            <Link href="/about">About</Link>
-          </nav>
-        </header>
+        <Header />
 
-        <main style={{ padding: "2rem" }}>{children}</main>
+        <main
+          style={{
+            maxWidth: "70%",
+            margin: "0 auto",
+            minHeight: "100vh",
+            backgroundColor: "#fff",
+            color: "#000",
+          }}
+        >
+          {children}
+        </main>
       </body>
     </html>
   );
