@@ -1,0 +1,12 @@
+{
+  // 保存時にフォーマットを自動で実行
+  "editor.formatOnSave": true,
+
+  // フォーマットの実行対象にtsxを含める
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  },
+
+  // 使いたいフォーマッターを指定（Prettierを使う場合）
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
