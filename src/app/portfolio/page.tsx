@@ -1,3 +1,3 @@
 export default function Portfolio() {
-  return <div>ようこそ、ポートフォリオへｓ！</div>;
+  return <div className="content">ようこそ、ポートフォリオへｓ！</div>;
 }

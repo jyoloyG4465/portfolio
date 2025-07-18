@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import "./globals.css";
-import Link from "next/link";
+import "./globals.scss";
 import Header from "./header/header";
+import styles from "./layout.module.scss"; // ← SCSS モジュールを読み込む
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,18 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Header />
-
-        <main
-          style={{
-            maxWidth: "70%",
-            margin: "0 auto",
-            minHeight: "100vh",
-            backgroundColor: "#fff",
-            color: "#000",
-          }}
-        >
-          {children}
-        </main>
+        <main className={styles.main}>{children}</main>
       </body>
     </html>
   );

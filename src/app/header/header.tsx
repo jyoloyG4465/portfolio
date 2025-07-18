@@ -1,31 +1,11 @@
 import Link from "next/link";
+import styles from "./header.module.scss"; // SCSS モジュールを読み込む
 
 export default function Header() {
   return (
-    <div
-      className="header"
-      style={{
-        padding: "1rem",
-        backgroundColor: "#08E8DE",
-        color: "#000",
-        textAlign: "center",
-        height: "150px",
-      }}
-    >
-      <div
-        className="title"
-        style={{
-          fontSize: "48px",
-        }}
-      >
-        My Portfolio
-      </div>
-      <nav
-        style={{
-          marginTop: "16px",
-          fontSize: "18px",
-        }}
-      >
+    <div className={styles.header}>
+      <div className={styles.title}>My Portfolio</div>
+      <nav className={styles.nav}>
         <Link href="/home">ホーム</Link> |{" "}
         <Link href="/history-view-tools">視聴履歴分析</Link> |{" "}
         <Link href="/date-calculation">日数計算</Link> |{" "}

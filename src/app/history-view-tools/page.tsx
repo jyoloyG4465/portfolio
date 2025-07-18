@@ -1,3 +1,3 @@
 export default function HistoryViewToolsPage() {
-  return <div>これはhistory-view-toolsへ！</div>;
+  return <div className="content">これはhistory-view-toolsへ！</div>;
 }

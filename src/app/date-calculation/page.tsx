@@ -1,3 +1,3 @@
 export default function DateCalculationPage() {
-  return <div>これは日数計算へ！</div>;
+  return <div className="content">これは日数計算へ！</div>;
 }
