@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #eaedf2;
     --foreground: #ededed;
   }
 }
@@ -26,5 +26,6 @@ body {
 }
 
 .content {
-  padding: 20px;
+  padding: 25px 40px 10px;
+  margin-top: 20px;
 }
