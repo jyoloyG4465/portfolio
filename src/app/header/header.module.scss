@@ -7,12 +7,39 @@
 }
 
 .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 48px;
+  font-weight: bold;
+
+  span {
+    margin-left: 20px;
+  }
+}
+
+.link {
+  display: flex; /* これが必要！ */
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+
+  img {
+    width: 48px;
+    height: 48px;
+    margin-right: 0.5rem;
+  }
+}
+
+.logo {
+  width: 48px;
+  height: 48px;
 }
 
 .nav {
   margin-top: 16px;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .nav a {
