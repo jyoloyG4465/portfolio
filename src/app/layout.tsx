@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.scss";
 import Header from "./component/Header/Header";
+import AboutMe from "./component/AboutMe/AboutMe";
 import styles from "./layout.module.scss"; // ← SCSS モジュールを読み込む
-import Sidebar from "./component/Sidebar/Sidebar";
+import { TocProvider } from "./content/TocContext";
+import Contents from "./component/Contents/Contents";
 
 export const metadata: Metadata = {
   title: "My Portfolio",
@@ -17,13 +19,20 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body>
-        <Header />
-        <div className={styles.layout}>
-          <main className={styles.main}>{children}</main>
-          <div className={styles.sidebar}>
-            <Sidebar />
+        <TocProvider>
+          <Header />
+          <div className={styles.layout}>
+            <main className={styles.main}>{children}</main>
+            <div className={styles.sidebar}>
+              <div className={styles.section}>
+                <AboutMe />
+              </div>
+              <div className={styles.section}>
+                <Contents />
+              </div>
+            </div>
           </div>
-        </div>
+        </TocProvider>
       </body>
     </html>
   );

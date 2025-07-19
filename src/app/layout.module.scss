@@ -17,4 +17,15 @@
 
 .sidebar {
   flex: 3;
+  position: sticky;
+  top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-height: calc(100vh - 80px);
+  overflow-y: auto;
+}
+
+.section {
+  flex-shrink: 0;
 }
