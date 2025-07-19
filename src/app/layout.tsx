@@ -3,7 +3,7 @@ import "./globals.scss";
 import Header from "./component/Header/Header";
 import AboutMe from "./component/AboutMe/AboutMe";
 import styles from "./layout.module.scss"; // ← SCSS モジュールを読み込む
-import { TocProvider } from "./content/TocContext";
+import { TocProvider } from "./context/TocContext";
 import Contents from "./component/Contents/Contents";
 
 export const metadata: Metadata = {
