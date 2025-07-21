@@ -7,7 +7,7 @@ import styles from "./SalesReport.module.scss";
 
 const headings = [
   { id: "introduction", title: "概要" },
-  { id: "career", title: "主な機能" },
+  { id: "reason", title: "きっかけ" },
   { id: "skills", title: "技術スタック" },
   { id: "products", title: "開発の工夫点" },
   { id: "certifications", title: "スクリーンショット" },
@@ -34,7 +34,7 @@ export default function SalesReportPage() {
         </p>
       </section>
 
-      <section id="career" className="page-section">
+      <section id="reason" className="page-section">
         <div className="section-title">主な機能</div>
         <ul className={styles.list}>
           <li>YouTubeの視聴履歴 (HTML) をインポート</li>

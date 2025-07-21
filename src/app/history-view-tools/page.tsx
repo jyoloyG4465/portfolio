@@ -7,7 +7,7 @@ import styles from "./HistoryViewTools.module.scss";
 
 const headings = [
   { id: "introduction", title: "概要" },
-  { id: "career", title: "主な機能" },
+  { id: "reason", title: "きっかけ" },
   { id: "skills", title: "技術スタック" },
   { id: "products", title: "開発の工夫点" },
   { id: "certifications", title: "スクリーンショット" },
