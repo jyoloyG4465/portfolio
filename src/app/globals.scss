@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #eaedf2;
+    --foreground: #ededed;
+    --text: #000000;
+    --default-font-size: 18px;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: (var(--default-font-size));
+}
+
+.page-container {
+  padding: 30px 36px;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.8;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 24px 0px;
+  padding: 10px 20px;
+  background-color: #e0f0ff;
+  border-radius: 12px;
+  color: #003366;
+}
+
+.product-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.page-section {
+  margin-bottom: 54px;
+}

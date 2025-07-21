@@ -1,0 +1,101 @@
+.profileContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 44px;
+  padding: 20px 24px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fafafa;
+  margin: 20px 0px;
+  justify-content: center;
+}
+
+.photoWrapper {
+  flex-shrink: 0;
+  margin-top: 20px;
+}
+
+.profileImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profileText {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    margin-bottom: 6px;
+    font-size: 16px;
+    line-height: 1.6;
+
+    a {
+      color: #0070f3;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.subTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.paragraph {
+  margin-bottom: 10px;
+  a {
+    color: #0070f3;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.list {
+  padding-left: 20px;
+  margin-bottom: 10px;
+
+  li {
+    margin-bottom: 8px;
+  }
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0px;
+
+  th,
+  td {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+}
+
+.certificationList {
+  list-style-type: disc;
+  padding-left: 40px;
+  line-height: 1.8;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}

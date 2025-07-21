@@ -1,0 +1,30 @@
+.main {
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: #fff;
+  border-radius: 12px;
+  flex: 6.8;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+  width: 1300px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.sidebar {
+  flex: 3.2;
+  position: sticky;
+  top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-height: 100vh;
+  overflow-y: visible;
+}
+
+.section {
+  flex-shrink: 0;
+}
