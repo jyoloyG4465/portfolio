@@ -7,7 +7,7 @@ import styles from "./HistoryViewTools.module.scss";
 
 const headings = [
   { id: "introduction", title: "概要" },
-  { id: "reason", title: "きっかけ" },
+  { id: "reason", title: "作ったきっかけ" },
   { id: "skills", title: "技術スタック" },
   { id: "products", title: "開発の工夫点" },
   { id: "certifications", title: "スクリーンショット" },
@@ -25,23 +25,32 @@ export default function HistoryViewToolsPage() {
   return (
     <div className="page-container">
       <div className="product-title">history-view-tools</div>
-
+      <div className={styles.photoWrapper}>
+        <img src="/history-view-tools-top.png" />
+      </div>
       <section id="introduction" className="page-section">
         <div className="section-title">概要</div>
-        <p>
-          YouTubeからダウンロードした自分の視聴履歴を取り込み、グラフで視覚化・分析できるWebアプリです。
-          視聴時間やカテゴリ傾向を知ることで、自分の興味の傾向や時間の使い方を可視化できます。
-        </p>
+        <div>
+          このツールは、YouTube閲覧履歴をもとに視聴傾向をグラフで可視化するアプリケーションです。履歴データを一度取り込めば、
+          棒グラフや線グラフなどの形式で視聴パターンを分析できます。
+        </div>
+        <div>
+          ジャンルごとの変化、長期的な視聴スタイルの推移など、
+          「いつ、どんな動画を見ていたのか？」「その傾向は時間とともにどう変化したのか？」がひと目で分かります。
+          自分でも気づかなかった“視聴のクセ”を、データから発見してみてください。
+        </div>
       </section>
 
       <section id="career" className="page-section">
-        <div className="section-title">主な機能</div>
-        <ul className={styles.list}>
-          <li>YouTubeの視聴履歴 (HTML) をインポート</li>
-          <li>視聴時間や頻度をグラフ化（時間帯・日付別など）</li>
-          <li>カテゴリ別の視聴傾向分析</li>
-          <li>Webベースでの視覚的な操作UI</li>
-        </ul>
+        <div className="section-title">作ったきっかけ</div>
+        <div>
+          0→1でアプリケーションを開発する経験を積みたかったことが一番大きいです。普段の業務ではエンハンス開発がメインのため、あまり対応することのない
+          Dockerや初期環境のセットアップなどを実践を通して深く理解したいという思いもありました。
+        </div>
+        <div>
+          さらに、自分自身の視聴履歴を可視化して分析すること自体が純粋に面白そうだと感じたことや、
+          Googleで調べても同様の事例が見当たらなかったことから、自分で一から取り組んでみようと考えました。
+        </div>
       </section>
 
       <section id="skills" className="page-section">
@@ -66,7 +75,14 @@ export default function HistoryViewToolsPage() {
 
       <section id="certifications" className="page-section">
         <div className="section-title">スクリーンショット</div>
-        <p>※実際の画面キャプチャをここに表示予定</p>
+        <div>・視聴履歴をデータセットとして登録・更新・削除</div>
+        <video src="/dataset-use.mp4" controls className={styles.video}>
+          お使いのブラウザは video タグをサポートしていません。
+        </video>
+        <div>・データセットからグラフで可視化</div>
+        <video src="/analysis-use.mp4" controls className={styles.video}>
+          お使いのブラウザは video タグをサポートしていません。
+        </video>
       </section>
 
       <section id="learnings" className="page-section">
