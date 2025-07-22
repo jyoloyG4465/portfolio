@@ -25,7 +25,7 @@ export default function HistoryViewToolsPage() {
   return (
     <div className="page-container">
       <div className="product-title">history-view-tools</div>
-      <div className={styles.photoWrapper}>
+      <div className="top-photo">
         <img src="/history-view-tools-top.png" />
       </div>
       <section id="introduction" className="page-section">

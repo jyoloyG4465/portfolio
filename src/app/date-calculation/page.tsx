@@ -25,7 +25,9 @@ export default function DateCalculationPage() {
   return (
     <div className="page-container">
       <div className="product-title">date-calculation</div>
-
+      <div className="top-photo">
+        <img src="/date-calculation-top.png" />
+      </div>
       <section id="introduction" className="page-section">
         <div className="section-title">概要</div>
         <p>
