@@ -30,20 +30,11 @@ export default function DateCalculationPage() {
       </div>
       <section id="introduction" className="page-section">
         <div className="section-title">概要</div>
-        <p>
-          YouTubeからダウンロードした自分の視聴履歴を取り込み、グラフで視覚化・分析できるWebアプリです。
-          視聴時間やカテゴリ傾向を知ることで、自分の興味の傾向や時間の使い方を可視化できます。
-        </p>
+        <p></p>
       </section>
 
       <section id="reason" className="page-section">
         <div className="section-title">主な機能</div>
-        <ul className={styles.list}>
-          <li>YouTubeの視聴履歴 (HTML) をインポート</li>
-          <li>視聴時間や頻度をグラフ化（時間帯・日付別など）</li>
-          <li>カテゴリ別の視聴傾向分析</li>
-          <li>Webベースでの視覚的な操作UI</li>
-        </ul>
       </section>
 
       <section id="skills" className="page-section">
@@ -59,11 +50,6 @@ export default function DateCalculationPage() {
 
       <section id="products" className="page-section">
         <div className="section-title">開発の工夫点</div>
-        <ul className={styles.list}>
-          <li>データの整形やタイムゾーン処理で履歴データの正確性を担保</li>
-          <li>Docker環境で開発・本番環境の差異を最小化</li>
-          <li>グラフの描画パフォーマンス改善のための非同期読み込み</li>
-        </ul>
       </section>
 
       <section id="certifications" className="page-section">
@@ -73,18 +59,11 @@ export default function DateCalculationPage() {
 
       <section id="learnings" className="page-section">
         <div className="section-title">得られた学び・感想</div>
-        <ul className={styles.list}>
-          <li>Django REST APIの実装とAngularとの接続経験</li>
-          <li>Docker Composeを活用した複数サービス構成の理解</li>
-          <li>時系列データの取り扱いや視覚化技術の実践</li>
-        </ul>
       </section>
 
       <section id="closing" className="page-section">
         <div className="section-title">おわりに</div>
-        <p>
-          このプロジェクトを通じて、バックエンドからフロントエンドまでのフルスタック開発を実践しました。今後も自身の興味を深掘りしながら、データを活用した可視化や分析の知見を広げていきたいです。
-        </p>
+        <p></p>
       </section>
 
       <div className={styles.linkRight}>
