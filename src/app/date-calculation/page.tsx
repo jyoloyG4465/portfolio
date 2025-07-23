@@ -41,6 +41,7 @@ export default function DateCalculationPage() {
         </div>
         <div className="career-paragraph">
           以下のURLにアクセスするとAWSでデプロイ済みのアプリケーションを使用可能です。
+          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
         </div>
       </section>
 
@@ -73,6 +74,9 @@ export default function DateCalculationPage() {
         <div className="career-paragraph">
           さらに、西暦1900年以降の半角数字のみを許容するバリデーションを設け、不正な入力を防ぎつつ、安心して使える仕様にしました。
           出力結果は日数・週数・月数の3形式で表示され、ユーザーが用途に応じて直感的に確認できるよう配慮しています。
+        </div>
+        <div className="architecture">
+          <img src="/date-calculation-draw.png" />
         </div>
         <div className="career-paragraph">
           また、上の画像がAWS構成図になっています。S3、CloudFront、Route
