@@ -3,7 +3,6 @@
 import { useEffect } from "react";
 import Link from "next/link";
 import { useToc } from "@/app/context/TocContext";
-import styles from "./HistoryViewTools.module.scss";
 
 const headings = [
   { id: "introduction", title: "概要" },
@@ -55,7 +54,7 @@ export default function HistoryViewToolsPage() {
 
       <section id="skills" className="page-section">
         <div className="section-title">技術スタック</div>
-        <ul className={styles.list}>
+        <ul className="section-list">
           <li>フロントエンド: Angular (TypeScript)</li>
           <li>バックエンド: Python (Django)</li>
           <li>データベース: PostgreSQL</li>
@@ -114,12 +113,12 @@ export default function HistoryViewToolsPage() {
         </div>
       </section>
 
-      <div className={styles.linkRight}>
+      <div className="link-right">
         <Link
           href="https://github.com/jyoloyG4465/history-view-tools"
           target="_blank"
           rel="noopener noreferrer"
-          className={styles.link}
+          className="page-link"
         >
           GitHub リポジトリを見る
         </Link>

@@ -3,7 +3,6 @@
 import { useEffect } from "react";
 import Link from "next/link";
 import { useToc } from "@/app/context/TocContext";
-import styles from "./DateCalculation.module.scss";
 
 const headings = [
   { id: "introduction", title: "概要" },
@@ -58,7 +57,7 @@ export default function DateCalculationPage() {
 
       <section id="skills" className="page-section">
         <div className="section-title">技術スタック</div>
-        <ul className={styles.list}>
+        <ul className="section-list">
           <li>フロントエンド: HTML / CSS / JavaScript</li>
           <li>インフラ: AWS（ S3 / Route53 / CloudFront / ACM ）</li>
           <li>LocalStorage API を使用したデータ保存機能</li>
@@ -115,12 +114,12 @@ export default function DateCalculationPage() {
         </div>
       </section>
 
-      <div className={styles.linkRight}>
+      <div className="link-right">
         <Link
           href="https://github.com/jyoloyG4465/date-calculation"
           target="_blank"
           rel="noopener noreferrer"
-          className={styles.link}
+          className="page-link"
         >
           GitHub リポジトリを見る
         </Link>

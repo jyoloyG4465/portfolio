@@ -36,7 +36,7 @@ export default function SalesReportPage() {
 
       <section id="reason" className="page-section">
         <div className="section-title">主な機能</div>
-        <ul className={styles.list}>
+        <ul className="section-list">
           <li>YouTubeの視聴履歴 (HTML) をインポート</li>
           <li>視聴時間や頻度をグラフ化（時間帯・日付別など）</li>
           <li>カテゴリ別の視聴傾向分析</li>
@@ -46,7 +46,7 @@ export default function SalesReportPage() {
 
       <section id="skills" className="page-section">
         <div className="section-title">技術スタック</div>
-        <ul className={styles.list}>
+        <ul className="section-list">
           <li>フロントエンド: Angular (TypeScript)</li>
           <li>バックエンド: Python (Django)</li>
           <li>データベース: PostgreSQL</li>
@@ -57,7 +57,7 @@ export default function SalesReportPage() {
 
       <section id="products" className="page-section">
         <div className="section-title">開発の工夫点</div>
-        <ul className={styles.list}>
+        <ul className="section-list">
           <li>データの整形やタイムゾーン処理で履歴データの正確性を担保</li>
           <li>Docker環境で開発・本番環境の差異を最小化</li>
           <li>グラフの描画パフォーマンス改善のための非同期読み込み</li>
@@ -71,7 +71,7 @@ export default function SalesReportPage() {
 
       <section id="learnings" className="page-section">
         <div className="section-title">得られた学び・感想</div>
-        <ul className={styles.list}>
+        <ul className="section-list">
           <li>Django REST APIの実装とAngularとの接続経験</li>
           <li>Docker Composeを活用した複数サービス構成の理解</li>
           <li>時系列データの取り扱いや視覚化技術の実践</li>
@@ -85,12 +85,12 @@ export default function SalesReportPage() {
         </p>
       </section>
 
-      <div className={styles.linkRight}>
+      <div className="link-right">
         <Link
           href="https://github.com/your-username/history-view-tools"
           target="_blank"
           rel="noopener noreferrer"
-          className={styles.link}
+          className="page-link"
         >
           GitHub リポジトリを見る
         </Link>
