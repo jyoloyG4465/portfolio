@@ -30,13 +30,7 @@ export default function PortfolioPage() {
       </section>
 
       <section id="reason" className="page-section">
-        <div className="section-title">主な機能</div>
-        <ul className="section-list">
-          <li>YouTubeの視聴履歴 (HTML) をインポート</li>
-          <li>視聴時間や頻度をグラフ化（時間帯・日付別など）</li>
-          <li>カテゴリ別の視聴傾向分析</li>
-          <li>Webベースでの視覚的な操作UI</li>
-        </ul>
+        <div className="section-title">きっかけ</div>
       </section>
 
       <section id="skills" className="page-section">
@@ -61,23 +55,15 @@ export default function PortfolioPage() {
 
       <section id="learnings" className="page-section">
         <div className="section-title">得られた学び・感想</div>
-        <ul className="section-list">
-          <li>Django REST APIの実装とAngularとの接続経験</li>
-          <li>Docker Composeを活用した複数サービス構成の理解</li>
-          <li>時系列データの取り扱いや視覚化技術の実践</li>
-        </ul>
       </section>
 
       <section id="closing" className="page-section">
         <div className="section-title">おわりに</div>
-        <p>
-          このプロジェクトを通じて、バックエンドからフロントエンドまでのフルスタック開発を実践しました。今後も自身の興味を深掘りしながら、データを活用した可視化や分析の知見を広げていきたいです。
-        </p>
       </section>
 
       <div className="link-right">
         <Link
-          href="https://github.com/your-username/history-view-tools"
+          href="https://github.com/jyoloyG4465/portfolio"
           target="_blank"
           rel="noopener noreferrer"
           className="page-link"
