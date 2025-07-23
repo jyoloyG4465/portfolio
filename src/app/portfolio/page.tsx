@@ -10,7 +10,6 @@ const headings = [
   { id: "reason", title: "きっかけ" },
   { id: "skills", title: "技術スタック" },
   { id: "products", title: "開発の工夫点" },
-  { id: "certifications", title: "スクリーンショット" },
   { id: "learnings", title: "得られた学び・感想" },
   { id: "closing", title: "おわりに" },
 ];
@@ -62,11 +61,6 @@ export default function PortfolioPage() {
           <li>Docker環境で開発・本番環境の差異を最小化</li>
           <li>グラフの描画パフォーマンス改善のための非同期読み込み</li>
         </ul>
-      </section>
-
-      <section id="certifications" className="page-section">
-        <div className="section-title">スクリーンショット</div>
-        <p>※実際の画面キャプチャをここに表示予定</p>
       </section>
 
       <section id="learnings" className="page-section">
