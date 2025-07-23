@@ -83,11 +83,11 @@ export default function HistoryViewToolsPage() {
       <section id="certifications" className="page-section">
         <div className="section-title">スクリーンショット</div>
         <div>・視聴履歴をデータセットとして登録・更新・削除</div>
-        <video src="/dataset-use.mp4" controls className={styles.video}>
+        <video src="/dataset-use.mp4" controls className="video">
           お使いのブラウザは video タグをサポートしていません。
         </video>
         <div>・データセットからグラフで可視化</div>
-        <video src="/analysis-use.mp4" controls className={styles.video}>
+        <video src="/analysis-use.mp4" controls className="video">
           お使いのブラウザは video タグをサポートしていません。
         </video>
       </section>
@@ -116,7 +116,7 @@ export default function HistoryViewToolsPage() {
 
       <div className={styles.linkRight}>
         <Link
-          href="https://github.com/your-username/history-view-tools"
+          href="https://github.com/jyoloyG4465/history-view-tools"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.link}
