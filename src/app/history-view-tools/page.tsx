@@ -55,7 +55,7 @@ export default function HistoryViewToolsPage() {
       <section id="skills" className="page-section">
         <div className="section-title">技術スタック</div>
         <ul className="section-list">
-          <li>フロントエンド: Angular (TypeScript)</li>
+          <li>フロントエンド: Angular (TypeScript) / SCSS</li>
           <li>バックエンド: Python (Django)</li>
           <li>データベース: PostgreSQL</li>
           <li>インフラ/環境構築: Docker, Docker Compose</li>
@@ -65,6 +65,9 @@ export default function HistoryViewToolsPage() {
 
       <section id="products" className="page-section">
         <div className="section-title">開発の工夫点</div>
+        <div className="architecture">
+          <img src="/history-view-tools-draw.png" />
+        </div>
         <div className="career-paragraph">
           上の画像がアーキテクチャ図になります。今回、Docker
           を利用してローカル環境内で完結するアーキテクチャを採用しました。これにより、個人情報である視聴履歴を外部に送信されるリスクをなくしました。
