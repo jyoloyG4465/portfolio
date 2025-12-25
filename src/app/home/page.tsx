@@ -150,7 +150,6 @@ export default function HomePage() {
           <li>基本情報技術者試験</li>
           <li>応用情報技術者試験</li>
           <li>情報処理安全確保支援士</li>
-          <li>データベーススペシャリスト試験</li>
           <li>AWS Certified Cloud Practitioner</li>
           <li>AWS Certified Solutions Architect Associate</li>
           <li>AWS Certified Solutions Architect Professional</li>
