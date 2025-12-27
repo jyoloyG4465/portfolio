@@ -3,7 +3,9 @@
   background-color: #009ef3;
   color: #ffffff;
   text-align: center;
-  height: 150px;
+  min-height: 150px;
+  height: auto;
+  box-sizing: border-box;
 }
 
 .title {

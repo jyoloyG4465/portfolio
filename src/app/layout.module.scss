@@ -9,9 +9,11 @@
 .layout {
   display: flex;
   gap: 20px;
-  width: 1300px;
+  max-width: 1300px;
+  width: 100%;
   margin: 0 auto;
   padding: 32px;
+  box-sizing: border-box;
 }
 
 .sidebar {
@@ -21,8 +23,8 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-  max-height: 100vh;
-  overflow-y: visible;
+  max-height: calc(100vh - 64px); // padding を考慮
+  overflow-y: auto; // スクロール可能に変更
 }
 
 .section {
