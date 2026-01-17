@@ -28,7 +28,7 @@ export default function HomePage() {
         <div className="section-title">自己紹介</div>
         <div className={styles.profileContainer}>
           <div className={styles.photoWrapper}>
-            <img src="/logo-grad-name.png" className={styles.profileImage} />
+            <img src="/logo-grad.png" className={styles.profileImage} />
           </div>
           <ul className={styles.profileText}>
             <li>
