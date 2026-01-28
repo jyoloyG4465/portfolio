@@ -152,10 +152,11 @@ export default function HomePage() {
           <li>情報処理安全確保支援士</li>
           <li>AWS Certified Cloud Practitioner</li>
           <li>AWS Certified Solutions Architect Associate</li>
-          <li>AWS Certified Solutions Architect Professional</li>
           <li>AWS Certified Developer Associate</li>
           <li>AWS Certified SysOps Administrator Associate</li>
           <li>AWS Certified Data Engineer Associate</li>
+          <li>AWS Certified Solutions Architect Professional</li>
+          <li>AWS Certified DevOps Engineer Professional</li>
           <li>Linux Professional Institute Certification（LPIC）レベル1</li>
           <li>Linux Professional Institute Certification（LPIC）レベル2</li>
           <li>G検定</li>
