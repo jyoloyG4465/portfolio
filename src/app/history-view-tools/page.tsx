@@ -5,11 +5,11 @@ import Link from "next/link";
 import { useToc } from "@/app/context/TocContext";
 
 const headings = [
-  { id: "introduction", title: "概要" },
-  { id: "reason", title: "作ったきっかけ" },
-  { id: "skills", title: "技術スタック" },
-  { id: "products", title: "開発の工夫点" },
-  { id: "certifications", title: "スクリーンショット" },
+  { id: "overview", title: "概要" },
+  { id: "motivation", title: "作ったきっかけ" },
+  { id: "tech-stack", title: "技術スタック" },
+  { id: "improvements", title: "開発の工夫点" },
+  { id: "screenshots", title: "スクリーンショット" },
   { id: "learnings", title: "得られた学び・感想" },
   { id: "closing", title: "おわりに" },
 ];
@@ -27,7 +27,7 @@ export default function HistoryViewToolsPage() {
       <div className="top-photo">
         <img src="/history-view-tools-top.png" />
       </div>
-      <section id="introduction" className="page-section">
+      <section id="overview" className="page-section">
         <div className="section-title">概要</div>
         <div className="career-paragraph">
           このツールは、YouTube閲覧履歴をもとに視聴傾向をグラフで可視化するアプリケーションです。履歴データを一度取り込めば、
@@ -40,7 +40,7 @@ export default function HistoryViewToolsPage() {
         </div>
       </section>
 
-      <section id="career" className="page-section">
+      <section id="motivation" className="page-section">
         <div className="section-title">作ったきっかけ</div>
         <div className="career-paragraph">
           0→1でアプリケーションを開発する経験を積みたかったことが一番大きいです。普段の業務ではエンハンス開発がメインのため、あまり対応することのない
@@ -52,7 +52,7 @@ export default function HistoryViewToolsPage() {
         </div>
       </section>
 
-      <section id="skills" className="page-section">
+      <section id="tech-stack" className="page-section">
         <div className="section-title">技術スタック</div>
         <ul className="section-list">
           <li>フロントエンド: Angular (TypeScript) / SCSS</li>
@@ -63,7 +63,7 @@ export default function HistoryViewToolsPage() {
         </ul>
       </section>
 
-      <section id="products" className="page-section">
+      <section id="improvements" className="page-section">
         <div className="section-title">開発の工夫点</div>
         <div className="architecture">
           <img src="/history-view-tools-draw.png" />
@@ -82,7 +82,7 @@ export default function HistoryViewToolsPage() {
         </div>
       </section>
 
-      <section id="certifications" className="page-section">
+      <section id="screenshots" className="page-section">
         <div className="section-title">スクリーンショット</div>
         <div>・視聴履歴をデータセットとして登録・更新・削除</div>
         <video src="/dataset-use.mp4" controls className="video">

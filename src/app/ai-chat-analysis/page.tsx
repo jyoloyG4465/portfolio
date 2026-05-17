@@ -5,10 +5,10 @@ import Link from "next/link";
 import { useToc } from "@/app/context/TocContext";
 
 const headings = [
-  { id: "introduction", title: "概要" },
+  { id: "overview", title: "概要" },
   { id: "features", title: "主な機能" },
-  { id: "skills", title: "技術スタック" },
-  { id: "products", title: "開発の工夫点" },
+  { id: "tech-stack", title: "技術スタック" },
+  { id: "improvements", title: "開発の工夫点" },
   { id: "screenshots", title: "スクリーンショット" },
   { id: "learnings", title: "得られた学び・感想" },
   { id: "closing", title: "おわりに" },
@@ -25,7 +25,7 @@ export default function AiChatAnalysisPage() {
     <div className="page-container">
       <div className="product-title">AIチャット履歴分析</div>
 
-      <section id="introduction" className="page-section">
+      <section id="overview" className="page-section">
         <div className="section-title">概要</div>
         <p>
           YouTubeからダウンロードした自分の視聴履歴をAWSにアップロードし、Glue/Athenaで分析。
@@ -43,7 +43,7 @@ export default function AiChatAnalysisPage() {
         </ul>
       </section>
 
-      <section id="skills" className="page-section">
+      <section id="tech-stack" className="page-section">
         <div className="section-title">技術スタック</div>
         <ul className="section-list">
           <li>AWS: S3, Glue, Athena, Bedrock, Lambda, API Gateway</li>
@@ -52,7 +52,7 @@ export default function AiChatAnalysisPage() {
         </ul>
       </section>
 
-      <section id="products" className="page-section">
+      <section id="improvements" className="page-section">
         <div className="section-title">開発の工夫点</div>
         <ul className="section-list">
           <li>AWS CDKによるインフラのコード化で再現性・保守性を向上</li>
