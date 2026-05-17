@@ -16,12 +16,15 @@ export default function AbountMe() {
           <div>
             現在は主にTypeScript（Angular）、Python（Django）、SQLを用いたWebアプリケーション開発やコードレビューを担当
           </div>
+          <div>
+            サブリーダーとして5名体制のチームでタスク管理・技術フォローも担当
+          </div>
         </div>
 
         <div className={styles.section}>
           <div className={styles.heading}>・資格で継続的な学習を実践</div>
           <div>
-            基本情報・応用情報をはじめとする高度情報処理資格やAWS認定6冠など、
+            基本情報・応用情報をはじめとする高度情報処理資格やAWS認定7冠など、
             スキルの裏付けとなる資格も多数取得
           </div>
         </div>

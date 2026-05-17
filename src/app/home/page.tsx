@@ -35,7 +35,7 @@ export default function HomePage() {
               <strong>名前：</strong>jyoloyG
             </li>
             <li>
-              <strong>学歴：</strong>大学院卒（大阪大学大学院 情報科学研究科）
+              <strong>学歴：</strong>大学院卒（国立大学大学院 情報系修了）
             </li>
             <li>
               <strong>経験：</strong>
@@ -55,13 +55,6 @@ export default function HomePage() {
               </a>
             </li>
           </ul>
-        </div>
-        <div className={styles.paragraph}>
-          はじめまして、jyoloyGと申します。フルスタックエンジニアとして、
-          <strong>
-            様々な現場で業務システムのリプレイスや、Webアプリの設計・実装
-          </strong>
-          まで幅広く対応してきました。現在は業務外でもアプリ開発を行いながら、知識の習得と実践を続けています。
         </div>
       </div>
 
@@ -90,13 +83,16 @@ export default function HomePage() {
             <strong>
               BtoB向けデータ分析プラットフォーム製品のエンハンス開発
             </strong>
-            を担当し、既存機能の改修や追加開発を実施
+            を担当し、30件以上の機能開発・改善を実施
           </li>
           <li>
-            ・TypeScript/Angular・python/Django
+            ・TypeScript/Angular・Python/Django
             を用いた設計・実装・コードレビューを担当
           </li>
-          <li>・軽度の新機能提案や要件整理、テスト設計にも関与</li>
+          <li>
+            ・サブリーダーとして5名体制のチームでタスク管理・技術フォローを担当
+          </li>
+          <li>・パフォーマンス改善（表示速度40%向上など）にも従事</li>
         </ul>
       </div>
 
@@ -116,30 +112,31 @@ export default function HomePage() {
             </tr>
             <tr>
               <td>バックエンド</td>
-              <td>Python（Django）</td>
+              <td>Python（Django）, Java, Go</td>
             </tr>
             <tr>
               <td>インフラ</td>
-              <td>Linux, Docker, AWS（Lambda, RDS, CDK etc...） </td>
+              <td>Linux, Docker, AWS </td>
             </tr>
             <tr>
               <td>その他</td>
               <td>
-                VBA, GitHub, Swagger, Jira, Jenkins, Confluence, Github Actions
+                VBA, GitHub, Swagger, Jira, Jenkins, Confluence, GitHub Actions,
+                Scrapbox
               </td>
             </tr>
             <tr>
               <td>DB</td>
-              <td>PostgreSQL, SQL Server</td>
+              <td>PostgreSQL, DuckDB</td>
             </tr>
             <tr>
               <td>AIツール</td>
-              <td>Gemini CLI, Claude, GPT-4</td>
+              <td>Claude Code, Gemini CLI, GPT-4</td>
             </tr>
           </tbody>
         </table>
         ※Next.jsやGitHub
-        Actions、AWSなど一部ツールについては、自主開発や個人学習での使用経験が中心です。
+        Actions、AWSなど一部技術については、自主開発や個人学習での使用経験が中心です。
       </div>
       <div className="page-section" id="certifications">
         <div className="section-title">資格・語学</div>
@@ -167,18 +164,18 @@ export default function HomePage() {
         <div className={styles.cardGrid}>
           <ProductCard
             title="履歴閲覧ツール"
-            description="youtubeの閲覧履歴をグラフで可視化します"
+            description="youtubeの閲覧履歴を手動で取り込んで、グラフで可視化します"
             url="/history-view-tools"
           />
           <ProductCard
             title="日数計算ツール"
-            description="特定日からの経過日数や期間を自動計算します"
+            description="特定日からの経過日数や期間や、指定した日付からN日後の日付を自動計算します"
             url="/date-calculation"
           />
           <ProductCard
-            title="営業報告集計ツール"
-            description="LINEで投稿された営業報告を自動収集・集計します"
-            url="/sales-report"
+            title="AIチャット履歴分析"
+            description="YouTube閲覧履歴をAWSで分析し、AIチャットで質問できます"
+            url="#"
           />
           <ProductCard
             title="本サイト"
@@ -191,9 +188,11 @@ export default function HomePage() {
       <div className="page-section" id="vision">
         <div className="section-title">目指すエンジニア像</div>
         <p className={styles.paragraph}>
-          現場課題の本質を捉え、
-          <strong>提案・設計・運用まで一気通貫で支援できるエンジニア</strong>
-          を目指しています。マネジメント経験も重ね、チーム全体を動かす立場へ成長していきたいです。
+          開発だけに閉じず、
+          <strong>
+            企画・改善・運用まで一貫して関わりながら、プロダクト成長に責任を持てるエンジニア
+          </strong>
+          を目指しています。技術・業務・ユーザー視点を併せ持ち、継続的な改善を通じて価値を届けていきたいです。
         </p>
       </div>
 

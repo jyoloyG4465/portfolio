@@ -13,7 +13,7 @@ export default function Header() {
         <Link href="/home">ホーム</Link> |{" "}
         <Link href="/history-view-tools">視聴履歴分析</Link> |{" "}
         <Link href="/date-calculation">日数計算</Link> |{" "}
-        <Link href="/sales-report">営業成績集計</Link> |{" "}
+        <Link href="#">AIチャット履歴分析</Link> |{" "}
         <Link href="/portfolio">本サイト</Link>
       </nav>
     </div>
