@@ -32,20 +32,17 @@ export default function HomePage() {
           </div>
           <ul className={styles.profileText}>
             <li>
-              <strong>名前：</strong>jyoroyG
+              <strong>名前：</strong>jyoloyG
             </li>
             <li>
-              <strong>年齢：</strong>20代後半
-            </li>
-            <li>
-              <strong>学歴：</strong>国立大学大学院 情報系修了
+              <strong>学歴：</strong>大学院卒（大阪大学大学院 情報科学研究科）
             </li>
             <li>
               <strong>経験：</strong>
               事業会社・SIerの両方でITエンジニアを経験
             </li>
             <li>
-              <strong>趣味：</strong>料理、温泉巡り、ドラマ鑑賞
+              <strong>趣味：</strong>旅行、野球観戦、ドラマ鑑賞
             </li>
             <li>
               <strong>GitHub：</strong>
@@ -60,7 +57,7 @@ export default function HomePage() {
           </ul>
         </div>
         <div className={styles.paragraph}>
-          はじめまして、jyoroyGと申します。フルスタックエンジニアとして、
+          はじめまして、jyoloyGと申します。フルスタックエンジニアとして、
           <strong>
             様々な現場で業務システムのリプレイスや、Webアプリの設計・実装
           </strong>

@@ -4,7 +4,7 @@ export default function AbountMe() {
   return (
     <aside className={styles.sidebar}>
       <img src="/logo-grad.png" className={styles.image} />
-      <div className={styles.name}>jyoroyG</div>
+      <div className={styles.name}>jyoloyG</div>
       <div className={styles.bio}>
         <div className={styles.section}>
           <div className={styles.heading}>
