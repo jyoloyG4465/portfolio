@@ -175,7 +175,7 @@ export default function HomePage() {
           <ProductCard
             title="AIチャット履歴分析"
             description="YouTube閲覧履歴をAWSで分析し、AIチャットで質問できます"
-            url="#"
+            url="/ai-chat-analysis"
           />
           <ProductCard
             title="本サイト"
