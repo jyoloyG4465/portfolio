@@ -22,7 +22,7 @@ export default function PortfolioPage() {
 
   return (
     <div className="page-container">
-      <div className="product-title">portfolio</div>
+      <div className="product-title">本サイト</div>
       <div className="top-photo">
         <img src="/portfolio-top.jpg" />
       </div>

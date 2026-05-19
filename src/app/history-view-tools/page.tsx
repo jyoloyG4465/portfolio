@@ -23,7 +23,7 @@ export default function HistoryViewToolsPage() {
 
   return (
     <div className="page-container">
-      <div className="product-title">history-view-tools</div>
+      <div className="product-title">視聴履歴分析</div>
       <div className="top-photo">
         <img src="/history-view-tools-top.png" />
       </div>

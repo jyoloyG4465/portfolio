@@ -23,7 +23,7 @@ export default function DateCalculationPage() {
 
   return (
     <div className="page-container">
-      <div className="product-title">date-calculation</div>
+      <div className="product-title">日数計算</div>
       <div className="top-photo">
         <img src="/date-calculation-top.png" />
       </div>
@@ -117,6 +117,16 @@ export default function DateCalculationPage() {
 
       <section id="improvements" className="page-section">
         <div className="section-title">開発の工夫点</div>
+        <div className="career-paragraph">
+          アーキテクチャはVercelにNext.jsアプリをデプロイするシンプルな構成です。
+          ユーザーはブラウザからVercel上のWebアプリにアクセスし、日数差計算・N日後計算・問い合わせフォームの3機能を利用できます。
+          問い合わせフォームはServer
+          Actionsを通じてResendのAPIを呼び出し、メール送信を行います。
+          日付データはブラウザのLocalStorageに保存されるため、サーバーへのデータ保存は不要な軽量な構成となっています。
+        </div>
+        <div className="architecture">
+          <img src="/date-calculation-draw.png" />
+        </div>
         <div className="career-paragraph">
           <strong>コンポーネント設計</strong>
         </div>
