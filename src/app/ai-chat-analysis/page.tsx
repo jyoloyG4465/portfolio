@@ -35,6 +35,26 @@ export default function AiChatAnalysisPage() {
           YouTubeからダウンロードした自分の視聴履歴をAWSにアップロードし、Glue/Athenaで分析。
           さらにBedrock（Claude）を使ったAIチャットで、視聴傾向について自然言語で質問できるサーバーレスシステムです。
         </div>
+        <div className="career-paragraph">
+          以下のURLにアクセスするとデプロイ済みのアプリケーションを使用可能です。
+        </div>
+        <div className="career-paragraph">
+          <Link
+            href="https://main.d334pzuy0fx5ee.amplifyapp.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="page-link"
+          >
+            https://main.d334pzuy0fx5ee.amplifyapp.com
+          </Link>
+        </div>
+        <div className="career-paragraph">
+          デモ用アカウントでログインして試すことができます。
+        </div>
+        <ul className="section-list">
+          <li>メールアドレス: demo@example.com</li>
+          <li>パスワード: DemoUser123!</li>
+        </ul>
       </section>
 
       <section id="motivation" className="page-section">
