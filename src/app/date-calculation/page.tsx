@@ -7,7 +7,6 @@ import { useToc } from "@/app/context/TocContext";
 const headings = [
   { id: "overview", title: "概要" },
   { id: "motivation", title: "作ったきっかけ" },
-  { id: "features", title: "主な機能" },
   { id: "tech-stack", title: "技術スタック" },
   { id: "improvements", title: "開発の工夫点" },
   { id: "learnings", title: "得られた学び・感想" },
@@ -64,41 +63,6 @@ export default function DateCalculationPage() {
         </div>
       </section>
 
-      <section id="features" className="page-section">
-        <div className="section-title">主な機能</div>
-        <div className="career-paragraph">
-          <strong>日数差計算</strong>
-        </div>
-        <ul className="section-list">
-          <li>開始日と終了日を指定して日数・週数・月数を自動計算</li>
-          <li>今日の日付をワンクリックで設定可能</li>
-          <li>入力した日付情報をローカルストレージに保存・呼び出し</li>
-        </ul>
-        <div className="career-paragraph">
-          <strong>N日後計算</strong>
-        </div>
-        <ul className="section-list">
-          <li>基準日からN日後（またはN日前）の日付を計算</li>
-          <li>計算結果の曜日も表示</li>
-          <li>今日の日付をワンクリックで設定可能</li>
-        </ul>
-        <div className="career-paragraph">
-          <strong>問い合わせフォーム</strong>
-        </div>
-        <ul className="section-list">
-          <li>お問い合わせ機能（Server Actions使用）</li>
-          <li>セキュリティ対策（Bot対策、バリデーション）</li>
-        </ul>
-        <div className="career-paragraph">
-          <strong>共通機能</strong>
-        </div>
-        <ul className="section-list">
-          <li>
-            入力値のバリデーション（西暦1900年以降の半角数字のみ受け付け）
-          </li>
-          <li>レスポンシブ対応（モバイル表示対応）</li>
-        </ul>
-      </section>
 
       <section id="tech-stack" className="page-section">
         <div className="section-title">技術スタック</div>
