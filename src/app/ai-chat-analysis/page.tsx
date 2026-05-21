@@ -72,7 +72,6 @@ export default function AiChatAnalysisPage() {
         </div>
       </section>
 
-
       <section id="tech-stack" className="page-section">
         <div className="section-title">技術スタック</div>
         <ul className="section-list">
@@ -90,7 +89,8 @@ export default function AiChatAnalysisPage() {
         <div className="section-title">開発の工夫点</div>
         <div className="career-paragraph">
           チャットの検索方式には、質問の種類に応じてAthena（SQLクエリ）とRAG（ベクトル検索）を自動切り替えするハイブリッド検索を採用しました。
-          集計・ランキング系の質問はAthenaで処理し、意味理解が必要な質問はAmazon Titan Embeddingsによるセマンティック検索で対応することで、
+          集計・ランキング系の質問はAthenaで処理し、意味理解が必要な質問はAmazon
+          Titan Embeddingsによるセマンティック検索で対応することで、
           幅広い種類の質問に自然に答えられるようにしています。
         </div>
         <div className="career-paragraph">
@@ -98,26 +98,38 @@ export default function AiChatAnalysisPage() {
           S3へのアップロードをトリガーにGlueがParquet変換を行い、完了後にベクトル化Lambdaが起動する連鎖的なパイプラインです。
         </div>
         <div className="career-paragraph">
-          インフラはAWS CDKでコード化し、ユーザーデータの分離はCognito IDをS3パスに組み込む形で実現しました。
+          インフラはAWS CDKでコード化し、ユーザーデータの分離はCognito
+          IDをS3パスに組み込む形で実現しました。
           Athenaクエリにも自動でユーザーフィルタが付与されるため、他ユーザーのデータにアクセスできない設計になっています。
         </div>
       </section>
 
       <section id="screenshots" className="page-section">
         <div className="section-title">スクリーンショット</div>
-        <div className="career-paragraph">・AIチャット画面</div>
         <div className="top-photo">
-          <img src="/ai-chat-analysis-top.png" />
+          <video
+            src="/ai-chat-analysis-movie.mp4"
+            controls
+            muted
+            loop
+            playsInline
+          />
         </div>
       </section>
 
       <section id="learnings" className="page-section">
         <div className="section-title">得られた学び・感想</div>
-        <ul className="section-list">
-          <li>AWSサーバーレスサービスを組み合わせた分析基盤構築の経験</li>
-          <li>AWS CDKによるインフラのコード管理の実践</li>
-          <li>Bedrock（Claude）を活用したAIチャット機能の実装経験</li>
-        </ul>
+        <div className="career-paragraph">
+          AWS認定資格の学習で得た知識を実際のプロジェクトに落とし込むことで、S3・Glue・Athena・Bedrockといったサービスの連携や、
+          サーバーレスアーキテクチャの設計パターンを体感として理解できました。
+          座学だけでは気づきにくいサービス間の制約やコスト設計の考え方など、手を動かすことで初めて見えてくる課題も多く、
+          資格取得後の実践として非常に価値ある経験になりました。
+        </div>
+        <div className="career-paragraph">
+          AWS CDKでインフラをコードで管理する体験も大きな収穫です。
+          コンソールからのポチポチ作業ではなく、変更履歴を追いながら構成を管理できる安心感と再現性の高さを実感しました。
+          また、Bedrock（Claude）を使ったAIチャット機能の実装を通じて、LLMをシステムに組み込む際の設計の難しさや面白さにも触れることができました。
+        </div>
       </section>
 
       <section id="closing" className="page-section">
