@@ -164,12 +164,12 @@ export default function HomePage() {
         <div className="section-title">自主開発プロダクト</div>
         <div className={styles.cardGrid}>
           <ProductCard
-            title="履歴閲覧ツール"
+            title="視聴履歴分析"
             description="youtubeの閲覧履歴を手動で取り込んで、グラフで可視化します"
             url="/history-view-tools"
           />
           <ProductCard
-            title="日数計算ツール"
+            title="日数計算"
             description="特定日からの経過日数や期間や、指定した日付からN日後の日付を自動計算します"
             url="/date-calculation"
           />

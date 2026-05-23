@@ -134,7 +134,7 @@ export default function DateCalculationPage() {
         <div className="section-title">おわりに</div>
         <div className="career-paragraph">
           ここで紹介しているものの中で私が最も使用しているアプリです。
-          「日数計算ツール」は、自分自身のちょっとした不便から生まれたアプリケーションであり、
+          「日数計算」は、自分自身のちょっとした不便から生まれたアプリケーションであり、
           同じようなニーズを持つ人にも役立つツールとして活用していただければ嬉しいです。
         </div>
       </section>
