@@ -1,9 +1,10 @@
 import styles from "./AboutMe.module.scss";
+import { asset } from "@/lib/asset";
 
 export default function AbountMe() {
   return (
     <aside className={styles.sidebar}>
-      <img src="/logo-grad.png" className={styles.image} />
+      <img src={asset("/logo-grad.png")} className={styles.image} />
       <div className={styles.name}>jyoloyG</div>
       <div className={styles.bio}>
         <div className={styles.section}>

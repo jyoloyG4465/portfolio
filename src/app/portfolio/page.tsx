@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { useToc } from "../context/TocContext";
 import Link from "next/link";
+import { asset } from "@/lib/asset";
 
 const headings = [
   { id: "introduction", title: "概要" },
@@ -24,7 +25,7 @@ export default function PortfolioPage() {
     <div className="page-container">
       <div className="product-title">本サイト</div>
       <div className="top-photo">
-        <img src="/portfolio-top.jpg" />
+        <img src={asset("/portfolio-top.jpg")} />
       </div>
       <section id="introduction" className="page-section">
         <div className="section-title">概要</div>

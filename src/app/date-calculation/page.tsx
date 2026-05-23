@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import Link from "next/link";
 import { useToc } from "@/app/context/TocContext";
+import { asset } from "@/lib/asset";
 
 const headings = [
   { id: "overview", title: "概要" },
@@ -24,7 +25,7 @@ export default function DateCalculationPage() {
     <div className="page-container">
       <div className="product-title">日数計算</div>
       <div className="top-photo">
-        <img src="/date-calculation-top.png" />
+        <img src={asset("/date-calculation-top.png")} />
       </div>
 
       <section id="overview" className="page-section">
@@ -89,7 +90,7 @@ export default function DateCalculationPage() {
           日付データはブラウザのLocalStorageに保存されるため、サーバーへのデータ保存は不要な軽量な構成となっています。
         </div>
         <div className="architecture">
-          <img src="/date-calculation-draw.png" />
+          <img src={asset("/date-calculation-draw.png")} />
         </div>
         <div className="career-paragraph">
           <strong>コンポーネント設計</strong>

@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import Link from "next/link";
 import { useToc } from "@/app/context/TocContext";
+import { asset } from "@/lib/asset";
 
 const headings = [
   { id: "overview", title: "概要" },
@@ -25,7 +26,7 @@ export default function HistoryViewToolsPage() {
     <div className="page-container">
       <div className="product-title">視聴履歴分析</div>
       <div className="top-photo">
-        <img src="/history-view-tools-top.png" />
+        <img src={asset("/history-view-tools-top.png")} />
       </div>
       <section id="overview" className="page-section">
         <div className="section-title">概要</div>
@@ -66,7 +67,7 @@ export default function HistoryViewToolsPage() {
       <section id="improvements" className="page-section">
         <div className="section-title">開発の工夫点</div>
         <div className="architecture">
-          <img src="/history-view-tools-draw.png" />
+          <img src={asset("/history-view-tools-draw.png")} />
         </div>
         <div className="career-paragraph">
           上の画像がアーキテクチャ図になります。今回、Docker
@@ -85,11 +86,11 @@ export default function HistoryViewToolsPage() {
       <section id="screenshots" className="page-section">
         <div className="section-title">スクリーンショット</div>
         <div>・視聴履歴をデータセットとして登録・更新・削除</div>
-        <video src="/dataset-use.mp4" controls className="video">
+        <video src={asset("/dataset-use.mp4")} controls className="video">
           お使いのブラウザは video タグをサポートしていません。
         </video>
         <div>・データセットからグラフで可視化</div>
-        <video src="/analysis-use.mp4" controls className="video">
+        <video src={asset("/analysis-use.mp4")} controls className="video">
           お使いのブラウザは video タグをサポートしていません。
         </video>
       </section>

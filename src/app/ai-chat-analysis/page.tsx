@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import Link from "next/link";
 import { useToc } from "@/app/context/TocContext";
+import { asset } from "@/lib/asset";
 
 const headings = [
   { id: "overview", title: "概要" },
@@ -25,7 +26,7 @@ export default function AiChatAnalysisPage() {
     <div className="page-container">
       <div className="product-title">AIチャット履歴分析</div>
       <div className="top-photo">
-        <img src="/ai-chat-analysis-top.png" />
+        <img src={asset("/ai-chat-analysis-top.png")} />
       </div>
 
       <section id="overview" className="page-section">
@@ -108,7 +109,7 @@ export default function AiChatAnalysisPage() {
         <div className="section-title">スクリーンショット</div>
         <div className="top-photo">
           <video
-            src="/ai-chat-analysis-movie.mp4"
+            src={asset("/ai-chat-analysis-movie.mp4")}
             controls
             muted
             loop

@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { useToc } from "../context/TocContext";
 import styles from "./HomePage.module.scss";
 import ProductCard from "./components/ProductCard";
+import { asset } from "@/lib/asset";
 
 const headings = [
   { id: "introduction", title: "自己紹介" },
@@ -28,7 +29,7 @@ export default function HomePage() {
         <div className="section-title">自己紹介</div>
         <div className={styles.profileContainer}>
           <div className={styles.photoWrapper}>
-            <img src="/logo-grad.png" className={styles.profileImage} />
+            <img src={asset("/logo-grad.png")} className={styles.profileImage} />
           </div>
           <ul className={styles.profileText}>
             <li>
