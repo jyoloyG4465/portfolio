@@ -2,9 +2,10 @@
 const isGitHubPages = process.env.GITHUB_PAGES === "true";
 
 const nextConfig = {
-  output: "export", // 静的出力を有効にする
-  trailingSlash: true, // 各ページのパス末尾に `/` をつける（index.htmlが必要なため）
+  output: "export",
+  trailingSlash: true,
+  basePath: isGitHubPages ? "/portfolio" : "",
+  assetPrefix: isGitHubPages ? "/portfolio/" : "",
 };
-module.exports = nextConfig;
 
 export default nextConfig;
