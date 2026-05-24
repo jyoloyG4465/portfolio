@@ -89,6 +89,15 @@ export default function AiChatAnalysisPage() {
       <section id="improvements" className="page-section">
         <div className="section-title">開発の工夫点</div>
         <div className="career-paragraph">
+          本システムは以下のようなアーキテクチャで構成されています。
+        </div>
+        <div className="top-photo">
+          <img
+            src={asset("/ai-chat-analysis-archtecture.png")}
+            alt="アーキテクチャ図"
+          />
+        </div>
+        <div className="career-paragraph">
           チャットの検索方式には、質問の種類に応じてAthena（SQLクエリ）とRAG（ベクトル検索）を自動切り替えするハイブリッド検索を採用しました。
           集計・ランキング系の質問はAthenaで処理し、意味理解が必要な質問はAmazon
           Titan Embeddingsによるセマンティック検索で対応することで、
