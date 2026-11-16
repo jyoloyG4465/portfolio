@@ -29,7 +29,10 @@ export default function HomePage() {
         <div className="section-title">自己紹介</div>
         <div className={styles.profileContainer}>
           <div className={styles.photoWrapper}>
-            <img src={asset("/logo-grad.png")} className={styles.profileImage} />
+            <img
+              src={asset("/logo-grad.png")}
+              className={styles.profileImage}
+            />
           </div>
           <ul className={styles.profileText}>
             <li>
@@ -67,12 +70,12 @@ export default function HomePage() {
         </div>
         <ul className={styles.list}>
           <li>
-            ・グループ会社に出向し、
+            グループ会社に出向し、
             <strong>業務パッケージシステム導入PJのPL</strong>
             として上流工程に従事
           </li>
-          <li>・要件整理・ベンダーコントロール・勉強会の運営など対応</li>
-          <li>・VBAによる業務アプリ開発、ヘルプデスク業務も担当</li>
+          <li>要件整理・ベンダーコントロール・勉強会の運営など対応</li>
+          <li>VBAによる業務アプリ開発、ヘルプデスク業務も担当</li>
         </ul>
 
         <div className={styles.subTitle}>
@@ -80,20 +83,22 @@ export default function HomePage() {
         </div>
         <ul className={styles.list}>
           <li>
-            ・クライアント企業が提供する
+            クライアント企業が提供する
             <strong>
               BtoB向けデータ分析プラットフォーム製品のエンハンス開発
             </strong>
-            を担当し、30件以上の機能開発・改善を実施
+            を担当し、40件以上の機能開発・改善、250件以上の不具合修正を実施
           </li>
           <li>
-            ・TypeScript/Angular・Python/Django
-            を用いた設計・実装・コードレビューを担当
+            TypeScript/Angular・Python/Django
+            を用いた要件整理・設計・実装・テスト・コードレビューを一貫して担当
           </li>
           <li>
-            ・サブリーダーとして5名体制のチームでタスク管理・技術フォローを担当
+            AIエージェント機能改善、MCP関連機能、認証・認可機能、外部DB連携APIなど技術的難易度の高い機能の開発に従事
           </li>
-          <li>・パフォーマンス改善（表示速度40%向上など）にも従事</li>
+          <li>
+            サブリーダーとして5名体制のチームでタスク管理・会議ファシリテート・技術フォローを担当
+          </li>
         </ul>
       </div>
 
@@ -117,18 +122,18 @@ export default function HomePage() {
             </tr>
             <tr>
               <td>インフラ</td>
-              <td>Linux, Docker, AWS </td>
+              <td>Linux, Docker, AWS</td>
             </tr>
             <tr>
               <td>その他</td>
               <td>
-                VBA, GitHub, Swagger, Jira, Jenkins, Confluence, GitHub Actions,
-                Scrapbox
+                Keycloak, VBA, Access, Git, GitHub, Swagger, Jira, Jenkins,
+                Confluence, GitHub Actions, Scrapbox, Agile
               </td>
             </tr>
             <tr>
               <td>DB</td>
-              <td>PostgreSQL, DuckDB</td>
+              <td>SQL, PostgreSQL, DuckDB</td>
             </tr>
             <tr>
               <td>AIツール</td>
@@ -146,12 +151,16 @@ export default function HomePage() {
           <li>応用情報技術者試験</li>
           <li>情報処理安全確保支援士</li>
           <li>AWS Certified Cloud Practitioner</li>
-          <li>AWS Certified Solutions Architect Associate</li>
-          <li>AWS Certified Developer Associate</li>
-          <li>AWS Certified SysOps Administrator Associate</li>
-          <li>AWS Certified Data Engineer Associate</li>
-          <li>AWS Certified Solutions Architect Professional</li>
-          <li>AWS Certified DevOps Engineer Professional</li>
+          <li>AWS Certified AI Practitioner</li>
+          <li>AWS Certified Solutions Architect - Associate</li>
+          <li>AWS Certified Developer - Associate</li>
+          <li>AWS Certified SysOps Administrator - Associate</li>
+          <li>AWS Certified Data Engineer - Associate</li>
+          <li>AWS Certified Machine Learning Engineer - Associate</li>
+          <li>AWS Certified Solutions Architect - Professional</li>
+          <li>AWS Certified DevOps Engineer - Professional</li>
+          <li>AWS Certified Generative AI Developer - Professional</li>
+          <li>AWS Certified Security - Specialty</li>
           <li>Linux Professional Institute Certification（LPIC）レベル1</li>
           <li>Linux Professional Institute Certification（LPIC）レベル2</li>
           <li>G検定</li>

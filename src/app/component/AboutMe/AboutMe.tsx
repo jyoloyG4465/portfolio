@@ -25,7 +25,7 @@ export default function AbountMe() {
         <div className={styles.section}>
           <div className={styles.heading}>・資格で継続的な学習を実践</div>
           <div>
-            基本情報・応用情報をはじめとする高度情報処理資格やAWS認定7冠など、
+            基本情報・応用情報をはじめとする高度情報処理資格やAWS認定11冠など、
             スキルの裏付けとなる資格も多数取得
           </div>
         </div>
