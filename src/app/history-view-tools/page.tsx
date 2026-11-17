@@ -7,6 +7,7 @@ import { asset } from "@/lib/asset";
 
 const headings = [
   { id: "overview", title: "概要" },
+  { id: "period", title: "開発時期" },
   { id: "motivation", title: "作ったきっかけ" },
   { id: "tech-stack", title: "技術スタック" },
   { id: "improvements", title: "開発の工夫点" },
@@ -39,6 +40,11 @@ export default function HistoryViewToolsPage() {
           「いつ、どんな動画を見ていたのか？」「その傾向は時間とともにどう変化したのか？」がひと目で分かります。
           自分でも気づかなかった“視聴のクセ”を、データから発見してみてください。
         </div>
+      </section>
+
+      <section id="period" className="page-section">
+        <div className="section-title">開発時期</div>
+        <div className="career-paragraph">2025年4月 〜 2025年5月</div>
       </section>
 
       <section id="motivation" className="page-section">

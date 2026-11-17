@@ -7,6 +7,7 @@ import { asset } from "@/lib/asset";
 
 const headings = [
   { id: "overview", title: "概要" },
+  { id: "period", title: "開発時期" },
   { id: "motivation", title: "作ったきっかけ" },
   { id: "tech-stack", title: "技術スタック" },
   { id: "improvements", title: "開発の工夫点" },
@@ -59,6 +60,11 @@ export default function AiChatAnalysisPage() {
           <li>メールアドレス: demo@example.com</li>
           <li>パスワード: DemoUser123!</li>
         </ul>
+      </section>
+
+      <section id="period" className="page-section">
+        <div className="section-title">開発時期</div>
+        <div className="career-paragraph">2025年12月 〜 2026年1月</div>
       </section>
 
       <section id="motivation" className="page-section">

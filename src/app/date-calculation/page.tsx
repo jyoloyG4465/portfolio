@@ -7,6 +7,7 @@ import { asset } from "@/lib/asset";
 
 const headings = [
   { id: "overview", title: "概要" },
+  { id: "period", title: "開発時期" },
   { id: "motivation", title: "作ったきっかけ" },
   { id: "tech-stack", title: "技術スタック" },
   { id: "improvements", title: "開発の工夫点" },
@@ -53,6 +54,11 @@ export default function DateCalculationPage() {
         </div>
       </section>
 
+      <section id="period" className="page-section">
+        <div className="section-title">開発時期</div>
+        <div className="career-paragraph">2025年6月</div>
+      </section>
+
       <section id="motivation" className="page-section">
         <div className="section-title">作ったきっかけ</div>
         <div className="career-paragraph">
@@ -63,7 +69,6 @@ export default function DateCalculationPage() {
           また、生成AI活用が勤務先でも流行っていたことから、AIと協力してアプリを作ってみようと思い始めました。
         </div>
       </section>
-
 
       <section id="tech-stack" className="page-section">
         <div className="section-title">技術スタック</div>
