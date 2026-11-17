@@ -187,11 +187,6 @@ export default function HomePage() {
             description="YouTube閲覧履歴をAWSで分析し、AIチャットで質問できます"
             url="/ai-chat-analysis"
           />
-          <ProductCard
-            title="本サイト"
-            description="自身の職務経歴やスキルセットを整理して掲載"
-            url="/portfolio"
-          />
         </div>
       </div>
 
